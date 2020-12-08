@@ -17,8 +17,6 @@
   Foundation, Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
 */
 
-#ifndef USE_TINYUSB
-
 #include "USBAPI.h"
 #include "USBDesc.h"
 #include "USBCore.h"
@@ -116,5 +114,3 @@ PluggableUSB_::PluggableUSB_() : lastIf(CDC_ACM_INTERFACE + CDC_INTERFACE_COUNT)
 
 #endif
 #endif
-
-#endif // USE_TINYUSB

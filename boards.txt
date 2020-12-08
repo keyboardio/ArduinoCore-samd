@@ -18,7 +18,6 @@ menu.cache=Cache
 menu.speed=CPU Speed
 menu.opt=Optimize
 menu.maxqspi=Max QSPI
-menu.usbstack=USB Stack
 menu.debug=Debug
 
 # Adafruit Feather M0 (SAMD21)
@@ -62,9 +61,6 @@ adafruit_feather_m0.menu.opt.fastest=Fastest (-Ofast)
 adafruit_feather_m0.menu.opt.fastest.build.flags.optimize=-Ofast
 adafruit_feather_m0.menu.opt.dragons=Here be dragons (-Ofast -funroll-loops)
 adafruit_feather_m0.menu.opt.dragons.build.flags.optimize=-Ofast -funroll-loops
-adafruit_feather_m0.menu.usbstack.arduino=Arduino
-adafruit_feather_m0.menu.usbstack.tinyusb=TinyUSB
-adafruit_feather_m0.menu.usbstack.tinyusb.build.flags.usbstack=-DUSE_TINYUSB
 adafruit_feather_m0.menu.debug.off=Off
 adafruit_feather_m0.menu.debug.on=On
 adafruit_feather_m0.menu.debug.on.build.flags.debug=-g
@@ -109,9 +105,6 @@ adafruit_feather_m0_express.menu.opt.fastest=Fastest (-Ofast)
 adafruit_feather_m0_express.menu.opt.fastest.build.flags.optimize=-Ofast
 adafruit_feather_m0_express.menu.opt.dragons=Here be dragons (-Ofast -funroll-loops)
 adafruit_feather_m0_express.menu.opt.dragons.build.flags.optimize=-Ofast -funroll-loops
-adafruit_feather_m0_express.menu.usbstack.arduino=Arduino
-adafruit_feather_m0_express.menu.usbstack.tinyusb=TinyUSB
-adafruit_feather_m0_express.menu.usbstack.tinyusb.build.flags.usbstack=-DUSE_TINYUSB
 adafruit_feather_m0_express.menu.debug.off=Off
 adafruit_feather_m0_express.menu.debug.on=On
 adafruit_feather_m0_express.menu.debug.on.build.flags.debug=-g
@@ -156,9 +149,6 @@ adafruit_metro_m0.menu.opt.fastest=Fastest (-Ofast)
 adafruit_metro_m0.menu.opt.fastest.build.flags.optimize=-Ofast
 adafruit_metro_m0.menu.opt.dragons=Here be dragons (-Ofast -funroll-loops)
 adafruit_metro_m0.menu.opt.dragons.build.flags.optimize=-Ofast -funroll-loops
-adafruit_metro_m0.menu.usbstack.arduino=Arduino
-adafruit_metro_m0.menu.usbstack.tinyusb=TinyUSB
-adafruit_metro_m0.menu.usbstack.tinyusb.build.flags.usbstack=-DUSE_TINYUSB
 adafruit_metro_m0.menu.debug.off=Off
 adafruit_metro_m0.menu.debug.on=On
 adafruit_metro_m0.menu.debug.on.build.flags.debug=-g
@@ -220,9 +210,6 @@ adafruit_metro_m4.menu.maxqspi.50=50 MHz (standard)
 adafruit_metro_m4.menu.maxqspi.50.build.flags.maxqspi=-DVARIANT_QSPI_BAUD_DEFAULT=50000000
 adafruit_metro_m4.menu.maxqspi.fcpu=CPU Speed / 2
 adafruit_metro_m4.menu.maxqspi.fcpu.build.flags.maxqspi=-DVARIANT_QSPI_BAUD_DEFAULT=({build.f_cpu})
-adafruit_metro_m4.menu.usbstack.arduino=Arduino
-adafruit_metro_m4.menu.usbstack.tinyusb=TinyUSB
-adafruit_metro_m4.menu.usbstack.tinyusb.build.flags.usbstack=-DUSE_TINYUSB
 adafruit_metro_m4.menu.debug.off=Off
 adafruit_metro_m4.menu.debug.on=On
 adafruit_metro_m4.menu.debug.on.build.flags.debug=-g
@@ -286,9 +273,6 @@ adafruit_grandcentral_m4.menu.maxqspi.50=50 MHz (standard)
 adafruit_grandcentral_m4.menu.maxqspi.50.build.flags.maxqspi=-DVARIANT_QSPI_BAUD_DEFAULT=50000000
 adafruit_grandcentral_m4.menu.maxqspi.fcpu=CPU Speed / 2
 adafruit_grandcentral_m4.menu.maxqspi.fcpu.build.flags.maxqspi=-DVARIANT_QSPI_BAUD_DEFAULT=({build.f_cpu})
-adafruit_grandcentral_m4.menu.usbstack.arduino=Arduino
-adafruit_grandcentral_m4.menu.usbstack.tinyusb=TinyUSB
-adafruit_grandcentral_m4.menu.usbstack.tinyusb.build.flags.usbstack=-DUSE_TINYUSB
 adafruit_grandcentral_m4.menu.debug.off=Off
 adafruit_grandcentral_m4.menu.debug.on=On
 adafruit_grandcentral_m4.menu.debug.on.build.flags.debug=-g
@@ -349,9 +333,6 @@ adafruit_feather_m4.menu.maxqspi.50=50 MHz (standard)
 adafruit_feather_m4.menu.maxqspi.50.build.flags.maxqspi=-DVARIANT_QSPI_BAUD_DEFAULT=50000000
 adafruit_feather_m4.menu.maxqspi.fcpu=CPU Speed / 2
 adafruit_feather_m4.menu.maxqspi.fcpu.build.flags.maxqspi=-DVARIANT_QSPI_BAUD_DEFAULT=({build.f_cpu})
-adafruit_feather_m4.menu.usbstack.arduino=Arduino
-adafruit_feather_m4.menu.usbstack.tinyusb=TinyUSB
-adafruit_feather_m4.menu.usbstack.tinyusb.build.flags.usbstack=-DUSE_TINYUSB
 adafruit_feather_m4.menu.debug.off=Off
 adafruit_feather_m4.menu.debug.on=On
 adafruit_feather_m4.menu.debug.on.build.flags.debug=-g
@@ -415,9 +396,6 @@ adafruit_pybadge_m4.menu.maxqspi.50=50 MHz (standard)
 adafruit_pybadge_m4.menu.maxqspi.50.build.flags.maxqspi=-DVARIANT_QSPI_BAUD_DEFAULT=50000000
 adafruit_pybadge_m4.menu.maxqspi.fcpu=CPU Speed / 2
 adafruit_pybadge_m4.menu.maxqspi.fcpu.build.flags.maxqspi=-DVARIANT_QSPI_BAUD_DEFAULT=({build.f_cpu})
-adafruit_pybadge_m4.menu.usbstack.arduino=Arduino
-adafruit_pybadge_m4.menu.usbstack.tinyusb=TinyUSB
-adafruit_pybadge_m4.menu.usbstack.tinyusb.build.flags.usbstack=-DUSE_TINYUSB
 adafruit_pybadge_m4.menu.debug.off=Off
 adafruit_pybadge_m4.menu.debug.on=On
 adafruit_pybadge_m4.menu.debug.on.build.flags.debug=-g
@@ -480,9 +458,6 @@ adafruit_pybadge_airlift_m4.menu.maxqspi.50=50 MHz (standard)
 adafruit_pybadge_airlift_m4.menu.maxqspi.50.build.flags.maxqspi=-DVARIANT_QSPI_BAUD_DEFAULT=50000000
 adafruit_pybadge_airlift_m4.menu.maxqspi.fcpu=CPU Speed / 2
 adafruit_pybadge_airlift_m4.menu.maxqspi.fcpu.build.flags.maxqspi=-DVARIANT_QSPI_BAUD_DEFAULT=({build.f_cpu})
-adafruit_pybadge_airlift_m4.menu.usbstack.arduino=Arduino
-adafruit_pybadge_airlift_m4.menu.usbstack.tinyusb=TinyUSB
-adafruit_pybadge_airlift_m4.menu.usbstack.tinyusb.build.flags.usbstack=-DUSE_TINYUSB
 adafruit_pybadge_airlift_m4.menu.debug.off=Off
 adafruit_pybadge_airlift_m4.menu.debug.on=On
 adafruit_pybadge_airlift_m4.menu.debug.on.build.flags.debug=-g
