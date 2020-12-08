@@ -1,3 +1,12 @@
+
+# THESE ARE NOT THE DROIDS YOU ARE LOOKING FOR
+
+This is an experimental Arduino Core that might possibly be used for future Keyboardio Keyboards.
+
+It was forked from Adafruit's fork of the Arudino SAMD core.
+
+Please do not file any bugs against the Arduino or Adafruit ArduinoCore-samd based on this code.
+
 # Arduino Core for SAMD21 and SAMD51 CPU
 
 [![Build Status](https://github.com/adafruit/ArduinoCore-samd/workflows/Build/badge.svg)](https://github.com/adafruit/ArduinoCore-samd/actions)
