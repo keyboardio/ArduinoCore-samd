@@ -1,0 +1,56 @@
+{
+  "packages": [
+    {
+      "websiteURL": "https://github.com/keyboardio/kaleidoscope",
+      "name": "adafruit",
+      "email": "jesse@keyboard.io",
+      "maintainer": "Keyboardio",
+      "platforms": [
+        {
+          "name": "Kaleidoscope SAMD Boards git automatic builds",
+          "architecture": "samd",
+          "version": "0.0.0",
+          "url": "https://github.com/keyboardio/ArduinoCore-samd/archive/master.zip",
+          "archiveFileName": "master.zip",
+          "boards": [
+            {
+              "name": "Keyboardio SAMD Testbed"
+            }
+          ],
+          "toolsDependencies": [
+            {
+              "packager": "arduino",
+              "name": "arm-none-eabi-gcc",
+              "version": "7-2017q4"
+            },
+            {
+              "packager": "arduino",
+              "name": "bossac",
+              "version": "1.7.0-arduino3"
+            },
+            {
+              "packager": "arduino",
+              "name": "openocd",
+              "version": "0.10.0-arduino7"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS",
+              "version": "4.5.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "CMSIS-Atmel",
+              "version": "1.2.0"
+            },
+            {
+              "packager": "arduino",
+              "name": "arduinoOTA",
+              "version": "1.2.1"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
